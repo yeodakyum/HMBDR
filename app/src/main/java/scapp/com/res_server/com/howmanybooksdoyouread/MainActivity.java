@@ -1,6 +1,6 @@
 package scapp.com.res_server.com.howmanybooksdoyouread;
 
-import android.app.Fragment;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -22,11 +22,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+      final IntentIntegrator scanIntegrator = new IntentIntegrator(this);
+        button.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                new com.google.zxing.integration.android.IntentIntegrator(this).initiateScan();
+                scanIntegrator.initiateScan();
             }
         });
     }
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 Log.d("MainActivity", "Scanned");
                 Toast.makeText(this, "Scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Scanned2: " + result.getContents(), Toast.LENGTH_LONG).show();
             }
         } else {
             // This is important, otherwise the result will not be passed to the fragment
