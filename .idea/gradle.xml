@@ -9,6 +9,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/gradle-bintray-plugin-master" />
+            <option value="$PROJECT_DIR$/sample" />
+            <option value="$PROJECT_DIR$/zbar" />
+            <option value="$PROJECT_DIR$/zbar-sample" />
+            <option value="$PROJECT_DIR$/zxing" />
+            <option value="$PROJECT_DIR$/zxing-android-embedded" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
