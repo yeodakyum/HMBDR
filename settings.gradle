@@ -1,1 +1,1 @@
-include ':app', ':zxing-android-embedded', ':sample', ':gradle-bintray-plugin-master', ':zxing', ':core', ':zbar', ':zbar-sample'
+include ':app', ':zxing-android-embedded', ':sample', ':gradle-bintray-plugin-master', ':zxing', ':core', ':zbar', ':zbar-sample', ':zxing-android-embedded-master'
