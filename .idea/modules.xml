@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HMBDR.iml" filepath="$PROJECT_DIR$/HMBDR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HMBDR-master.iml" filepath="$PROJECT_DIR$/HMBDR-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/HowManyBooksDoYouRead.iml" filepath="$PROJECT_DIR$/HowManyBooksDoYouRead.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
